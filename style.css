@@ -64,14 +64,15 @@ nav > ul > li > a {
 /* Main */
 main {
   display: grid;
-  grid-template-columns: 1fr 87% 1fr;
+  grid-template-columns: 1fr 84% 1fr;
+  
 }
 .product-list {
   display: grid;
   grid-column: 2;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 400px));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
   grid-template-rows: auto;
-  gap: 2rem;
+  gap: 3rem;
   align-content: center;
   justify-content: center;
 }
@@ -143,11 +144,23 @@ button {
   cursor: pointer;
 }
 
+.colour ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.colour ul {
+  list-style-type: none;
+}
+
+.colour li {
+  width: 1rem;
+  height: 1rem;
+}
 
 
 
-
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     
    
-  }
+  } */
