@@ -97,7 +97,7 @@ article {
 }
 
 .brand {
-  margin: 10px;
+  margin: 10px 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   color: grey;
@@ -109,7 +109,7 @@ article {
   color: grey;
   text-transform: uppercase;
   font-size: 20pt;
-  margin: 10px;
+  margin: 10px 20px;
 }
 
 .underline-name {
@@ -118,7 +118,7 @@ article {
 }
 .underline {
   border-top: 1px solid rgb(228, 227, 216);
-  width: 90%;
+  width: 99%;
 }
 
 .price,
@@ -134,12 +134,13 @@ article {
 }
 
 button {
-  margin-top: auto;
-  /* to push it to the bottom of the box & margin-top: auto takes the available space */
+  margin: 0 auto;
+  display: block;
   color: rgb(77, 5, 5);
   padding: 0.5rem, rgb(77, 5, 5);
   border: 1px solid;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 
